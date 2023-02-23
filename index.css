@@ -1,0 +1,47 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('CursedTimerUlil-Aznm.ttf');
+   }
+
+body {
+    margin: 100px;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content:space-around;
+    background: #1B244A;
+    margin:20px;
+    padding: 20px;
+    color:white;
+    align-content: center;
+    border-radius: 0.5rem;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+button{
+    display:inline-block;
+    margin: 2px;
+    background: #1B244A;
+    border: #9AABD8 solid 0.5px;
+    color: #9AABD8;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 0.1rem;
+    font-family:'digital-clock-font';
+}
+p{
+    background: black;
+    color: #F94F6D;
+    padding: 10px;
+    display: flex;
+    font-size:40px;
+     border-radius: 0.3rem;
+    justify-content: center;
+    font-family:'digital-clock-font';
+  
+}
